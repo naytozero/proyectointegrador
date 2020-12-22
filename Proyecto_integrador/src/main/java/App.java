@@ -1,13 +1,15 @@
 
 
-/**
- * Hello world!
- *
+   public class Main {
+
+ /** * @CodigosJava.BlogSpot.com
+ * JFrame con Usuario y Contraseña para acceder al sistema
+ *Codigo de fuente Java
  */
-public class App 
-{
-    public static void main( final String[] args)
-    {
-        System.out.println( "Hello World!" );
-    }
-}
+ public static void main(String[] args) {
+ Login EjecuteLogin = new Login();
+ EjecuteLogin.setVisible(true);
+                     }
+} 
+    
+
